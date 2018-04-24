@@ -1,0 +1,98 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+header{
+  height:20px;
+  background-color:BLACK;
+}
+
+
+#slide{
+  width:1200px;
+  height:450px;
+  margin:0 auto;
+  position:relative;
+}
+#slide ul{
+  margin:0;
+}
+
+#slide img{
+  width:1200px;
+  height:450px;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+footer#footer{
+  height:200px;
+  background-color:BLACK;
+}
+.right-footer{
+  float:right;
+  height:100%;
+  width:30%;
+  writing-mode: vertical-rl;
+}
+.right-footer a h1{
+  padding-top:50px;
+  padding-right:100px;
+  padding-left:30px;
+  color:white;
+  font-family:'MS PMincho';
+}
+.right-footer a {
+  text-decoration:none;
+}
+
+.right-footer p{
+  font-family:'MS PMincho';
+  color:white;
+}
+
+.left-footer{
+  height:100%;
+  width:70%;
+  writing-mode: vertical-rl;
+}
+
+.left-footer ul{
+  list-style-type:none;
+  padding-top:50px;
+  padding-right:400px;
+}
+
+.left-footer ul li{
+  padding-left:65px;
+  font-size:15px;
+  font-family:'MS PMincho';
+}
+
+.left-footer ul li a{
+  text-decoration: none;
+  color:white;
+}
+.left-footer ul li a:hover{
+  color:gray;
+}
+.kodawari_contents{
+  background-image:url("kodawari.gif");
+}
+
+.contents ul{
+  list-style-type:none;
+}
+
+#address{
+  height:150px;
+  width:150px;
+}
